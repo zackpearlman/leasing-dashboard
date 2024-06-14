@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.kpi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.kpi-item {
+    width: 18%;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.kpi-item h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.kpi-item p {
+    font-size: 2em;
+    margin: 0;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.chart {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.chart h3 {
+    text-align: center;
+}
+
+.summary {
+    margin-bottom: 20px;
+}
+
+.summary h2 {
+    text-align: center;
+}
+
+.summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.summary ul li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}

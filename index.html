@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkway Plaza Leasing Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Parkway Plaza Leasing Dashboard</h1>
+            <p>Data as of: <span id="data-date">June 13, 2024</span></p>
+        </header>
+        <section class="kpi">
+            <div class="kpi-item">
+                <h2>Properties</h2>
+                <p>4</p>
+            </div>
+            <div class="kpi-item">
+                <h2>Active Tenants</h2>
+                <p id="active-tenants">70</p>
+            </div>
+            <div class="kpi-item">
+                <h2>GLA</h2>
+                <p id="gla-sqft">200,000 sqft</p>
+            </div>
+            <div class="kpi-item">
+                <h2>Vacant Sqft</h2>
+                <p id="vacant-sqft">15,000 sqft</p>
+            </div>
+            <div class="kpi-item">
+                <h2>Total Monthly Rent</h2>
+                <p id="total-rent">$150,000</p>
+            </div>
+        </section>
+        <section class="charts">
+            <div class="chart">
+                <h3>Occupancy Analysis</h3>
+                <canvas id="occupancyChart"></canvas>
+            </div>
+            <div class="chart">
+                <h3>Leasing Trends</h3>
+                <canvas id="leasingTrendsChart"></canvas>
+            </div>
+            <div class="chart">
+                <h3>Tenant Industry Analysis</h3>
+                <canvas id="industryChart"></canvas>
+            </div>
+            <div class="chart">
+                <h3>Size Category Analysis</h3>
+                <canvas id="sizeCategoryChart"></canvas>
+            </div>
+        </section>
+        <section class="summary">
+            <h2>Summary</h2>
+            <ul>
+                <li>Average rental rates have been increasing steadily over the past three years.</li>
+                <li>Tenants in the technology sector are paying the highest average rent per square foot.</li>
+                <li>Building 4677 has the highest vacancy rate, with 15% of its space currently unoccupied.</li>
+                <li>Smaller suites (1-1000 sqft) are more likely to be vacant compared to larger suites.</li>
+                <li>A significant number of leases are set to expire in the next two years, indicating potential upcoming vacancies.</li>
+                <li>Recent leases show a preference for shorter lease terms (1-2 years).</li>
+            </ul>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
